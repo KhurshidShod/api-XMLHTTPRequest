@@ -1,0 +1,28 @@
+body{
+    background-color: #dde1e7;
+}
+.col{
+    background-color: transparent !important;
+    border: none;
+}
+.card-body{
+    border: none;
+    background-color: #dde1e7 !important;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.btn{
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+    border: none;
+    background-color: #dde1e7 !important;
+    color: black;
+}
+.btn:hover, .btn:active{
+    box-shadow: inset -3px -3px 7px #ffffff73,
+    inset 3px 3px 5px rgba(94, 104, 121, .288);
+    color: black !important;
+}

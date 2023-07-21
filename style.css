@@ -26,3 +26,6 @@ body{
     inset 3px 3px 5px rgba(94, 104, 121, .288);
     color: black !important;
 }
+.card-title img{
+    width: 100%;
+}

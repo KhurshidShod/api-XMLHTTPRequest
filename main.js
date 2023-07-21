@@ -13,6 +13,8 @@ const createRow = (user) => {
             <p class="card-text"><b>Company name: </b>${user.company.name}</p>
             <p class="card-text"><b>Address: </b>${user.address.city}, ${user.address.street}, ${user.address.suite}</p>
             <a href="./posts.html" class="btn btn-primary" onclick='goToPosts(${user.id})'>Go to posts</a>
+            <a href="./todos.html" class="btn btn-primary" onclick='goToTodos(${user.id})'>Go to todos</a>
+            <a href="./albums.html" class="btn btn-primary" onclick='goToAlbums(${user.id})'>Go to albums</a>
           </div>
         </div>
       </div>`;
@@ -28,4 +30,12 @@ getUsers();
 const goToPosts = (id) => {
     console.log(id)
     localStorage.setItem('userId', id);
+}
+const goToTodos = (id) => {
+  console.log(id)
+  localStorage.setItem('userId', id);
+}
+const goToAlbums = (id) => {
+  console.log(id)
+  localStorage.setItem('userId', id);
 }
